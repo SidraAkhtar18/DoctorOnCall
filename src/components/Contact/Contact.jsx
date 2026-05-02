@@ -30,19 +30,19 @@ const Contact = () => {
 		{
 			icon: <FaMapMarkerAlt />,
 			title: 'Visit us',
-			content: '1212 Kazi Nazrul Avenue, Sylhet, Bangladesh 3214'
+			content: 'Pakistan'
 		},
 		{
 			icon: <FaPhoneAlt />,
 			title: 'Call us',
-			content: '+1 (555) 123-4567',
-			link: 'tel:+1 (555) 123-4567'
+			content: '+92 326 1632431',
+			link: 'tel:+92 326 1632431'
 		},
 		{
 			icon: <FaEnvelope />,
 			title: 'Email us',
-			content: 'ujjalzaman@gmail.com',
-			link: 'mailto:ujjalzaman@gmail.com'
+			content: 'maliksidraakhtar18@gmail.com',
+			link: 'mailto:maliksidraakhtar18@gmail.com'
 		},
 		{
 			icon: <FaClock />,

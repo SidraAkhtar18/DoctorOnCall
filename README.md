@@ -2,9 +2,6 @@
 
 **A full-stack web app where patients book visits, doctors manage schedules and prescriptions, and admins oversee the system — all in one place.**
 
-[![Watch on YouTube](https://img.shields.io/badge/Watch_on-YouTube-red?logo=youtube)](https://youtu.be/L6cgb7I-Ap4)
-[![Live demo — Netlify](https://img.shields.io/badge/Live_demo-Netlify-00C7B7?logo=netlify)](https://dental-doctor-ujjal.netlify.app/)
-
 ---
 
 ## In plain English: what is this?
@@ -168,52 +165,15 @@ Open [http://localhost:3000](http://localhost:3000).
 - **Admin** users are **not** created from the sign-up form. You add them in the **`Auth`** table in the database with `role = admin` (and a hashed password consistent with how your app stores passwords), or use your own seed script.
 - For a **safe demo** for employers or clients, set **`isDemo = true`** on an admin row. That account can **browse** everything but **cannot** create, update, or delete data through the API.
 
-### 6. Common issues
-
-| Problem | What to try |
-|---------|-------------|
-| Frontend cannot reach API | Check `REACT_APP_API_BASE_URL`, CORS, and that the API is running. |
-| Database connection failed | Verify `DATABASE_URL`, password, `sslmode=require`, and Supabase project status. |
-| Prisma errors after pulling changes | Run `npx prisma generate` again; then `db push` or `migrate dev`. |
-
----
-
-## Video walkthrough
-
-Older setup steps are also shown in this video (database provider may differ; **this README uses Supabase**):
-
-[![YouTube](https://img.shields.io/badge/Watch_on-YouTube-red?logo=youtube)](https://youtu.be/L6cgb7I-Ap4)
-
----
-
-## Screenshots
-
-![DoctorOnCall overview](https://github.com/Ujjalzaman/Doctor-Appointment/assets/49386888/eeed56ce-3d9a-464d-91e5-588ea81ec5c0)
-
----
-
-## Contributing
-
-1. Fork the repo and clone your fork.  
-2. Create a branch: `git checkout -b your-feature-name`  
-3. Make changes, test with `npm start` (frontend) and `npm run dev` (API).  
-4. Commit and push, then open a **Pull Request** with a clear description.
-
----
 
 ## Author & contact
 
-**Ujjal Zaman**
+**SIDRA AKHTAR**
 
-- **Website / portfolio:** [ujjalzaman.com](https://ujjalzaman.com/)  
-- **Email:** [ujjalzaman@gmail.com](mailto:ujjalzaman@gmail.com)
+- **Website / portfolio:** [mernstackdeveloperportfolioo.sidra]
+- **Email:** [maliksidraakhtar18@gmail.com](mailto:maliksidraakhtar18@gmail.com)
 
 Have a product idea, a similar project, or want to collaborate? Reach out via the website or email — I’m happy to hear from you.
 
 ---
 
-## License & thanks
-
-This repository is shared for learning and portfolio use. If you ship a public product, review dependencies’ licenses and add your own license file if needed.
-
-Thank you for reading — and happy building.
