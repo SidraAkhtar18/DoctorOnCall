@@ -2,7 +2,6 @@ import { tagTypes } from "../tag-types";
 import { baseApi } from "./baseApi"
 
 const ADMIN_URL = '/admin'
-
 export const adminApi = baseApi.injectEndpoints({
     endpoints: (build) => ({
         getAdminStats: build.query({

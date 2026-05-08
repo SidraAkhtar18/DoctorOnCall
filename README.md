@@ -73,8 +73,8 @@ Doctor-Appointment/          ← React app (run from here with npm start)
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Ujjalzaman/Doctor-Appointment.git
-cd Doctor-Appointment
+git clone https://github.com/SidraAkhtar18/DoctorOnCall.git
+cd DoctorOnCall
 ```
 
 ### 2. Create the database on Supabase
